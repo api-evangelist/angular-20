@@ -1,0 +1,135 @@
+name: Angular 20 API
+description: Complete API reference for Angular 20 framework
+image: https://angular.io/assets/images/logos/angular/angular.png
+url: https://angular.io
+created: '2024'
+modified: '2024'
+apis:
+- name: Angular Core API
+  description: Core Angular framework APIs including components, directives, and dependency injection
+  baseURL: https://angular.io/api/core
+  humanURL: https://angular.io/api/core
+  properties:
+  - type: Documentation
+    url: https://angular.io/docs
+  - type: OpenAPI
+    url: https://angular.io/api/core/openapi.json
+  tags:
+  - Components
+  - Directives
+  - Dependency Injection
+  - Decorators
+  - Lifecycle Hooks
+- name: Angular Common API
+  description: Common utilities, pipes, directives, and HTTP client
+  baseURL: https://angular.io/api/common
+  humanURL: https://angular.io/api/common
+  properties:
+  - type: Documentation
+    url: https://angular.io/api/common
+  tags:
+  - Pipes
+  - Directives
+  - HTTP Client
+  - Location
+  - Date
+- name: Angular Forms API
+  description: Reactive and template-driven forms APIs
+  baseURL: https://angular.io/api/forms
+  humanURL: https://angular.io/api/forms
+  properties:
+  - type: Documentation
+    url: https://angular.io/guide/forms-overview
+  tags:
+  - Forms
+  - Validation
+  - Form Controls
+  - Reactive Forms
+- name: Angular Router API
+  description: Client-side routing and navigation
+  baseURL: https://angular.io/api/router
+  humanURL: https://angular.io/api/router
+  properties:
+  - type: Documentation
+    url: https://angular.io/guide/routing-overview
+  tags:
+  - Routing
+  - Navigation
+  - Guards
+  - Resolvers
+- name: Angular Animations API
+  description: Animation framework for Angular applications
+  baseURL: https://angular.io/api/animations
+  humanURL: https://angular.io/api/animations
+  properties:
+  - type: Documentation
+    url: https://angular.io/guide/animations
+  tags:
+  - Animations
+  - Transitions
+  - Keyframes
+- name: Angular Platform Browser API
+  description: Browser-specific platform APIs and bootstrapping
+  baseURL: https://angular.io/api/platform-browser
+  humanURL: https://angular.io/api/platform-browser
+  properties:
+  - type: Documentation
+    url: https://angular.io/api/platform-browser
+  tags:
+  - Browser
+  - DOM
+  - Title Service
+  - Meta Tags
+- name: Angular CLI
+  description: Command-line interface tools for Angular development
+  baseURL: https://angular.io/cli
+  humanURL: https://angular.io/cli
+  properties:
+  - type: Documentation
+    url: https://angular.io/cli
+  - type: GitHub
+    url: https://github.com/angular/angular-cli
+  tags:
+  - CLI
+  - Build Tools
+  - Development
+  - Schematics
+- name: Angular Signals API
+  description: Reactive state management with signals
+  baseURL: https://angular.io/api/core/signal
+  humanURL: https://angular.io/guide/signals
+  properties:
+  - type: Documentation
+    url: https://angular.io/guide/signals
+  tags:
+  - Signals
+  - State Management
+  - Reactivity
+  - Computed Values
+maintainers:
+- name: Angular Team
+  email: angular-core@google.com
+  url: https://github.com/angular/angular
+common:
+- type: GitHub Repository
+  url: https://github.com/angular/angular
+- type: Getting Started
+  url: https://angular.io/start
+- type: Tutorial
+  url: https://angular.io/tutorial
+- type: Blog
+  url: https://blog.angular.io
+- type: Community
+  url: https://community.angular.io
+- type: Release Notes
+  url: https://github.com/angular/angular/releases
+- type: TypeScript Support
+  url: https://angular.io/guide/typescript-configuration
+tags:
+- JavaScript Framework
+- TypeScript
+- SPA
+- Web Framework
+- Frontend
+- Component-Based
+- Google
