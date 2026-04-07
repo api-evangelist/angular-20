@@ -19,9 +19,9 @@ apis:
         url: https://angular.io/api/core/openapi.json
     tags:
       - Components
-      - Directives
-      - Dependency Injection
       - Decorators
+      - Dependency Injection
+      - Directives
       - Lifecycle Hooks
   - name: Angular Common API
     description: >-
@@ -32,11 +32,11 @@ apis:
       - type: Documentation
         url: https://angular.io/api/common
     tags:
-      - Pipes
+      - Date
       - Directives
       - HTTP Client
       - Location
-      - Date
+      - Pipes
   - name: Angular Forms API
     description: >-
       Reactive and template-driven forms APIs.
@@ -46,10 +46,10 @@ apis:
       - type: Documentation
         url: https://angular.io/guide/forms-overview
     tags:
-      - Forms
-      - Validation
       - Form Controls
+      - Forms
       - Reactive Forms
+      - Validation
   - name: Angular Router API
     description: >-
       Client-side routing and navigation.
@@ -59,10 +59,10 @@ apis:
       - type: Documentation
         url: https://angular.io/guide/routing-overview
     tags:
-      - Routing
-      - Navigation
       - Guards
+      - Navigation
       - Resolvers
+      - Routing
   - name: Angular Animations API
     description: >-
       Animation framework for Angular applications.
@@ -73,8 +73,8 @@ apis:
         url: https://angular.io/guide/animations
     tags:
       - Animations
-      - Transitions
       - Keyframes
+      - Transitions
   - name: Angular Platform Browser API
     description: >-
       Browser-specific platform APIs and bootstrapping.
@@ -86,8 +86,8 @@ apis:
     tags:
       - Browser
       - DOM
-      - Title Service
       - Meta Tags
+      - Title Service
   - name: Angular CLI
     description: >-
       Command-line interface tools for Angular development.
@@ -99,8 +99,8 @@ apis:
       - type: GitHub
         url: https://github.com/angular/angular-cli
     tags:
-      - CLI
       - Build Tools
+      - CLI
       - Development
       - Schematics
   - name: Angular Signals API
@@ -112,10 +112,10 @@ apis:
       - type: Documentation
         url: https://angular.io/guide/signals
     tags:
+      - Computed Values
+      - Reactivity
       - Signals
       - State Management
-      - Reactivity
-      - Computed Values
 maintainers:
   - name: Angular Team
     email: angular-core@google.com
@@ -136,10 +136,10 @@ common:
   - type: TypeScript Support
     url: https://angular.io/guide/typescript-configuration
 tags:
-  - JavaScript Framework
-  - TypeScript
-  - SPA
-  - Web Framework
-  - Frontend
   - Component-Based
+  - Frontend
   - Google
+  - JavaScript Framework
+  - SPA
+  - TypeScript
+  - Web Framework
