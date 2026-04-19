@@ -1,145 +1,144 @@
-# Angular 20 API (angular-20)
-Complete API reference for Angular 20 framework
+# Angular 20 (angular-20)
 
-**URL:** [Visit APIs.json URL](https://angular.io)
+Angular 20 is a major release of the Angular TypeScript framework, released May 28, 2025. All fundamental reactivity primitives (signal, effect, linkedSignal, signal-based queries and inputs) graduate to stable. Zoneless change detection matures significantly. Incremental hydration and route-level render mode graduate to stable. The esbuild/Vite-based builder receives further optimization, and Angular Material aligns more closely with Material Design 3.
+
+**URL:** [https://raw.githubusercontent.com/api-evangelist/angular-20/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/angular-20/refs/heads/main/apis.yml)
+
+## Scope
+
+- **Type:** Index
+- **Access:** Open Source
 
 ## Tags:
 
- - JavaScript Framework, TypeScript, SPA, Web Framework, Frontend, Component-Based, Google
+ - Framework, Frontend, Incremental Hydration, JavaScript, Material 3, Open Source, Signals, Single Page Application, TypeScript, Web Development, Zoneless
 
 ## Timestamps
 
-- **Created:** 2024 
-- **Modified:** 2024 
+- **Created:** 2025-05-28
+- **Modified:** 2026-04-19
 
 ## APIs
 
-### Angular Core API
-Core Angular framework APIs including components, directives, and dependency injection
+### Angular 20 Core API
 
-**Human URL:** [https://angular.io/api/core](https://angular.io/api/core)
+Core Angular 20 framework APIs with all fundamental reactivity primitives graduated to stable: signal, effect, linkedSignal, signal-based queries, and signal inputs. Zoneless change detection reaches greater maturity. Incremental hydration and route-level render mode also graduate to stable. Released May 28, 2025.
 
-
-#### Tags:
-
- - Components, Directives, Dependency Injection, Decorators, Lifecycle Hooks
-
-#### Properties
-
-- [Documentation](https://angular.io/docs)
-- [OpenAPI](https://angular.io/api/core/openapi.json)
-
-### Angular Common API
-Common utilities, pipes, directives, and HTTP client
-
-**Human URL:** [https://angular.io/api/common](https://angular.io/api/common)
-
+**Human URL:** [https://angular.dev/api/core](https://angular.dev/api/core)
 
 #### Tags:
 
- - Pipes, Directives, HTTP Client, Location, Date
+ - Change Detection, Components, Decorators, Dependency Injection, Framework, Linked Signal, Signals, Standalone Components, TypeScript, Zoneless
 
 #### Properties
 
-- [Documentation](https://angular.io/api/common)
+- [Documentation](https://angular.dev/api/core)
+- [GitHub](https://github.com/angular/angular)
 
-### Angular Forms API
-Reactive and template-driven forms APIs
+### Angular 20 Common API
 
-**Human URL:** [https://angular.io/api/forms](https://angular.io/api/forms)
+Common Angular 20 directives and pipes with stable built-in control flow (@if, @for, @switch) and improved pipe performance.
 
+**Human URL:** [https://angular.dev/api/common](https://angular.dev/api/common)
 
 #### Tags:
 
- - Forms, Validation, Form Controls, Reactive Forms
+ - Directives, Pipes, Utilities
 
 #### Properties
 
-- [Documentation](https://angular.io/guide/forms-overview)
+- [Documentation](https://angular.dev/api/common)
 
-### Angular Router API
-Client-side routing and navigation
+### Angular 20 Router API
 
-**Human URL:** [https://angular.io/api/router](https://angular.io/api/router)
+Angular 20 routing APIs with stable route-level render mode allowing per-route server-side rendering, static generation, or client-side rendering configuration.
 
+**Human URL:** [https://angular.dev/api/router](https://angular.dev/api/router)
 
 #### Tags:
 
- - Routing, Navigation, Guards, Resolvers
+ - Guards, Navigation, Render Mode, Routing
 
 #### Properties
 
-- [Documentation](https://angular.io/guide/routing-overview)
+- [Documentation](https://angular.dev/api/router)
 
-### Angular Animations API
-Animation framework for Angular applications
+### Angular 20 Forms API
 
-**Human URL:** [https://angular.io/api/animations](https://angular.io/api/animations)
+Angular 20 forms APIs with signal-based form integration and typed reactive forms.
 
+**Human URL:** [https://angular.dev/api/forms](https://angular.dev/api/forms)
 
 #### Tags:
 
- - Animations, Transitions, Keyframes
+ - Forms, Reactive Forms, Signal Forms, Typed Forms, Validation
 
 #### Properties
 
-- [Documentation](https://angular.io/guide/animations)
+- [Documentation](https://angular.dev/api/forms)
 
-### Angular Platform Browser API
-Browser-specific platform APIs and bootstrapping
+### Angular 20 HTTP Client API
 
-**Human URL:** [https://angular.io/api/platform-browser](https://angular.io/api/platform-browser)
+Angular 20 HTTP client with functional interceptors and signal-based resource APIs for reactive data fetching.
 
+**Human URL:** [https://angular.dev/api/common/http](https://angular.dev/api/common/http)
 
 #### Tags:
 
- - Browser, DOM, Title Service, Meta Tags
+ - HTTP, Interceptors, REST
 
 #### Properties
 
-- [Documentation](https://angular.io/api/platform-browser)
+- [Documentation](https://angular.dev/api/common/http)
 
-### Angular CLI
-Command-line interface tools for Angular development
+### Angular 20 Platform Server API
 
-**Human URL:** [https://angular.io/cli](https://angular.io/cli)
+Angular 20 platform server APIs with stable incremental hydration enabling lazy hydration of page sections on demand.
 
+**Human URL:** [https://angular.dev/api/platform-server](https://angular.dev/api/platform-server)
 
 #### Tags:
 
- - CLI, Build Tools, Development, Schematics
+ - Hydration, Incremental Hydration, SSR, Server-Side Rendering
 
 #### Properties
 
-- [Documentation](https://angular.io/cli)
-- [GitHub](https://github.com/angular/angular-cli)
+- [Documentation](https://angular.dev/api/platform-server)
+- [Guide](https://angular.dev/guide/ssr)
 
-### Angular Signals API
-Reactive state management with signals
+### Angular 20 CDK API
 
-**Human URL:** [https://angular.io/guide/signals](https://angular.io/guide/signals)
+Angular 20 Component Dev Kit providing behavior primitives for building custom accessible UI components with Material Design 3 refinements.
 
+**Human URL:** [https://material.angular.io/cdk/categories](https://material.angular.io/cdk/categories)
 
 #### Tags:
 
- - Signals, State Management, Reactivity, Computed Values
+ - Accessibility, CDK, Components
 
 #### Properties
 
-- [Documentation](https://angular.io/guide/signals)
+- [Documentation](https://material.angular.io/cdk/categories)
+- [GitHub](https://github.com/angular/components)
 
 ## Common Properties
 
-- [GitHub Repository](https://github.com/angular/angular)
-- [Getting Started](https://angular.io/start)
-- [Tutorial](https://angular.io/tutorial)
-- [Blog](https://blog.angular.io)
-- [Community](https://community.angular.io)
-- [Release Notes](https://github.com/angular/angular/releases)
-- [TypeScript Support](https://angular.io/guide/typescript-configuration)
+- [Documentation](https://angular.dev/)
+- [GitHub](https://github.com/angular/angular)
+- [Changelog](https://github.com/angular/angular/releases/tag/20.0.0)
+- [Blog](https://blog.angular.dev/announcing-angular-v20-b5c9c06cf301)
+- [Guide](https://angular.dev/guide/zoneless)
+- [Guide](https://angular.dev/guide/signals)
+- [Guide](https://angular.dev/guide/incremental-hydration)
+- [PackageRegistry](https://www.npmjs.com/package/@angular/core)
+- [License](https://github.com/angular/angular/blob/main/LICENSE)
+- [Contributing](https://github.com/angular/angular/blob/main/CONTRIBUTING.md)
+- [StackOverflow](https://stackoverflow.com/questions/tagged/angular)
+- [Discord](https://discord.gg/angular)
+- [X](https://twitter.com/angular)
 
 ## Maintainers
 
-**FN:** Angular Team
+**FN:** API Evangelist
 
-**Email:** angular-core@google.com
+**Email:** info@apievangelist.com
