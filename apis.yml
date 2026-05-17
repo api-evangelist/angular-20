@@ -152,7 +152,7 @@ common:
     type: GitHub
   - url: https://github.com/angular/angular/releases/tag/20.0.0
     name: Angular 20 Release Notes
-    type: Changelog
+    type: ChangeLog
   - url: https://blog.angular.dev/announcing-angular-v20-b5c9c06cf301
     name: Angular v20 Announcement Blog Post
     type: Blog
