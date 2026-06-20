@@ -14,7 +14,7 @@ apis:
       - Standalone Components
       - TypeScript
       - Zoneless
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://angular.dev/api/core
     humanURL: https://angular.dev/api/core
     properties:
@@ -34,7 +34,7 @@ apis:
       - Directives
       - Pipes
       - Utilities
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://angular.dev/api/common
     humanURL: https://angular.dev/api/common
     properties:
@@ -50,7 +50,7 @@ apis:
       - Navigation
       - Render Mode
       - Routing
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://angular.dev/api/router
     humanURL: https://angular.dev/api/router
     properties:
@@ -68,7 +68,7 @@ apis:
       - Signal Forms
       - Typed Forms
       - Validation
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://angular.dev/api/forms
     humanURL: https://angular.dev/api/forms
     properties:
@@ -83,7 +83,7 @@ apis:
       - HTTP
       - Interceptors
       - REST
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://angular.dev/api/common/http
     humanURL: https://angular.dev/api/common/http
     properties:
@@ -99,7 +99,7 @@ apis:
       - Incremental Hydration
       - SSR
       - Server-Side Rendering
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://angular.dev/api/platform-server
     humanURL: https://angular.dev/api/platform-server
     properties:
@@ -116,7 +116,7 @@ apis:
       - Accessibility
       - CDK
       - Components
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://material.angular.io/cdk
     humanURL: https://material.angular.io/cdk/categories
     properties:
@@ -141,7 +141,7 @@ tags:
   - Web Development
   - Zoneless
 type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 access: Open Source
 common:
   - url: https://angular.dev/
