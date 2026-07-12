@@ -1,0 +1,32 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: angular.dev
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 31 05:52:38 2026 GMT
+  hsts: true
+  hsts_max_age: 31556926
+- host: material.angular.io
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  7 23:18:58 2026 GMT
+  hsts: true
+  hsts_max_age: 31556926
+domains:
+- domain: angular.dev
+  dnssec: true
+  caa: []
+  spf: false
+  dmarc: false
+- domain: angular.io
+  dnssec: true
+  caa:
+  - 0 issue "pki.goog"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "sectigo.com"
+  - 0 iodef "mailto:angular-devinfra@google.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
