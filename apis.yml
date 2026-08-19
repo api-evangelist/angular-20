@@ -199,7 +199,7 @@ common:
     type: X
 created: '2025-05-28'
 modified: '2026-04-19'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 description: >-
   Angular 20 is a major release of the Angular TypeScript framework, released
   May 28, 2025. All fundamental reactivity primitives (signal, effect,
